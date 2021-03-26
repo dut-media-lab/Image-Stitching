@@ -12,4 +12,3 @@ This code is our implementation of the CVPR 2021 paper, Leveraging Line-point Co
 
 If you have any comments, suggestions, or questions, please feel free to contact us (ZhengJun.fqgw@gmail.com).
 =======
-This is the official code for "Leveraging Line-point Consistence to Preserve Structures for Wide Parallax Image Stitching"
