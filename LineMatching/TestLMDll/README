@@ -1,0 +1,9 @@
+
+
+The line segmentation detector (LSD) used in the demo is from the website:http://www.ipol.im/pub/algo/gjmr_line_segment_detector/
+
+Rafael Grompone von Gioi, J¨¦r¨¦mie Jakubowicz, Jean-Michel Morel, Gregory Randall, LSD: A Fast Line Segment Detector with a False Detection Control, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 32, no. 4, pp. 722-732, April 2010.
+
+The matched points in the demo are obtained based on the opencv 2.2
+
+The system configuration is "Win 7 32bits + VS2010". 

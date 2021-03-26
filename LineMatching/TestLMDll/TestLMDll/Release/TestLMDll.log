@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/7/7 11:05:29。
+     1>项目“E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\TestLMDll\TestLMDll.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\TestLMDll.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt lsd.c
+         lsd.c
+         D:\vs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>D:\Program Files\openCV2.2\include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>main.cpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(116): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(128): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(164): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(165): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(166): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(167): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(168): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(169): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(317): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>main.cpp(335): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>main.cpp(355): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\Release\TestLMDll.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Program Files\openCV2.2\lib" /LIBPATH:"D:\Program Files\openCV2.2\bin" opencv_core220.lib opencv_highgui220.lib opencv_calib3d220.lib opencv_features2d220.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TestLMDll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\Release\TestLMDll.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\Release\TestLMDll.lib" /MACHINE:X86 Release\lsd.obj
+         Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         TestLMDll.vcxproj -> E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\Release\TestLMDll.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\Release\TestLMDll.exe;#1" /manifest Release\TestLMDll.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\TestLMDll.unsuccessfulbuild”。
+         正在对“Release\TestLMDll.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\图像处理\linematch\code\linematch\newcode - 副本\TestLMDll\TestLMDll\TestLMDll.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.46

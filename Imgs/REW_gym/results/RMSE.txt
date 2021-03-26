@@ -1,0 +1,4 @@
+RMSE: 2.067734
+RMSE error: 0.036113
+RMSE distance: 1.024813
+RMSE crossproduct: 77.049315
