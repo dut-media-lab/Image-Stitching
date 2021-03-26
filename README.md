@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Leveraging Line-point Consistence to Preserve Structures for Wide Parallax Image Stitching
 
 This code is our implementation of the CVPR 2021 paper, Leveraging Line-point Consistence to Preserve Structures for Wide Parallax Image Stitching. If you use our code or data from our work, please cite our paper. The codes are privides a warping method for two-image stitching.
@@ -14,4 +13,3 @@ This code is our implementation of the CVPR 2021 paper, Leveraging Line-point Co
 If you have any comments, suggestions, or questions, please feel free to contact us (ZhengJun.fqgw@gmail.com).
 =======
 This is the official code for "Leveraging Line-point Consistence to Preserve Structures for Wide Parallax Image Stitching"
->>>>>>> main
