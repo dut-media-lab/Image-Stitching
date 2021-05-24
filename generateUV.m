@@ -54,14 +54,28 @@ newlines_u = zeros(size(lines_us));
 for i=1:2:size(lines_us,1)-1
     num_u = lines_us(i,end);
     vec_prod = (x1-lines_us(i,1:num_u)).*(y2-lines_us(i+1,1:num_u))+(lines_us(i+1,1:num_u)-y1).*(x2-lines_us(i,1:num_u));
-    left = vec_prod<0;  right = vec_prod>0; %left = vec_prod>0;  right = vec_prod<0;
+    left = vec_prod>0;  right = vec_prod<0; %left = vec_prod>0;  right = vec_prod<0;
     index_prod = (left_or_right & left) | ((~left_or_right) & right);  % find the sample points in the non-overlapping region
     newlines_u(i:i+1, 1:sum(index_prod)) = lines_us(i:i+1, index_prod);
     newlines_u(i:i+1, end) = sum(index_prod); % number of sample points
 end
 lines_ue = newlines_u;  % u sample points to preserve equidistant
 lines_ue(all(sum(lines_ue,2),2)==0,:)=[];  % delete all-zero rows
-lines_ue(:,all(sum(lines_ue,1),1)==0)=[];  % delete all-zero columns         
+lines_ue(:,all(sum(lines_ue,1),1)==0)=[];  % delete all-zero columns
+
+if isempty(lines_ue)
+    for i=1:2:size(lines_us,1)-1
+        num_u = lines_us(i,end);
+        vec_prod = (x1-lines_us(i,1:num_u)).*(y2-lines_us(i+1,1:num_u))+(lines_us(i+1,1:num_u)-y1).*(x2-lines_us(i,1:num_u));
+        left = vec_prod<0;  right = vec_prod>0; %left = vec_prod>0;  right = vec_prod<0;
+        index_prod = (left_or_right & left) | ((~left_or_right) & right);  % find the sample points in the non-overlapping region
+        newlines_u(i:i+1, 1:sum(index_prod)) = lines_us(i:i+1, index_prod);
+        newlines_u(i:i+1, end) = sum(index_prod); % number of sample points
+    end
+    lines_ue = newlines_u;  % u sample points to preserve equidistant
+    lines_ue(all(sum(lines_ue,2),2)==0,:)=[];  % delete all-zero rows
+    lines_ue(:,all(sum(lines_ue,1),1)==0)=[];  % delete all-zero columns
+end      
              
 % figure,imshow(img1);
 % hold on
